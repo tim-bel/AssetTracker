@@ -1,0 +1,7 @@
+mindee
+PySide6
+matplotlib
+fpdf
+google-auth
+google-auth-oauthlib
+google-api-python-client

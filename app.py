@@ -9,7 +9,8 @@ import pathlib # For APP_DATA_DIR
 import io # For MediaIoBaseUpload
 
 from mindee import Client as MindeeClient, product as mindee_product
-from mindee.errors import MindeeClientError, MindeeHttpError
+from mindee.error.mindee_error import MindeeClientError
+from mindee.error.mindee_http_error import MindeeHTTPError
 
 from PySide6.QtWidgets import (
     QApplication, QMainWindow, QTabWidget, QWidget, QVBoxLayout,
