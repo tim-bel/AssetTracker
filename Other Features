@@ -43,155 +43,6 @@ As an inventory grows from dozens to hundreds or thousands of items, browsing be
 
 This should be complemented by an advanced filtering system. Users should be able to construct and save complex views of their inventory. For example, a user should be able to easily create a filter to "Show all electronics purchased in the last 2 years with a value over $500" or "List all items in the 'Garage' collection whose warranties expire in the next 6 months." This level of dynamic reporting is what elevates the application from a simple list to a powerful database.
 
-Table 1: Competitive Feature Matrix: Core Inventory
-Feature
-
-Sortly
-
-Under My Roof
-
-HouseBook
-
-MyStuff2 Pro
-
-Proposed App
-
-Data Entry
-
-Manual Entry
-
-Yes    
-
-Yes    
-
-Yes    
-
-Yes    
-
-Yes (Essential)
-
-Barcode Scan (Auto-fill)
-
-Yes    
-
-Yes    
-
-No
-
-Yes    
-
-Yes (Essential)
-
-QR Code Generation
-
-Yes    
-
-No
-
-No
-
-No
-
-Yes (Differentiator)
-
-Receipt OCR
-
-No
-
-Yes    
-
-No
-
-No
-
-Yes (Differentiator)
-
-AI Photo Recognition
-
-No
-
-Yes (3D Scan)    
-
-No
-
-No
-
-Yes (Advanced)
-
-Data Import (CSV/Excel)
-
-Yes    
-
-No
-
-No
-
-Yes    
-
-Yes (Essential)
-
-Organization & Data
-
-Custom Fields
-
-Yes    
-
-Yes
-
-Yes (Attributes)    
-
-Yes    
-
-Yes (Essential)
-
-Multimodal Attachments
-
-Yes    
-
-Yes    
-
-Yes (Photos)    
-
-Yes (Photos, Files)    
-
-Yes (Essential)
-
-Hierarchical Org.
-
-Yes    
-
-Yes    
-
-Yes (Containers)    
-
-Yes    
-
-Yes (Essential)
-
-Tags/Collections
-
-Yes (Tags)    
-
-Yes (Collections)    
-
-Yes (Tags)    
-
-Yes (Categories)    
-
-Yes (Essential)
-
-Advanced Search
-
-Yes    
-
-Yes
-
-Yes
-
-Yes    
-
-Yes (Essential)
-
 The Financial Core: Value, Insurance, and Depreciation
 To truly serve the homeowner, the application must evolve beyond a simple catalog of possessions into a critical financial management tool. The primary value proposition of this section is to provide financial clarity and preparedness, particularly for the stressful and often confusing process of filing an insurance claim. By integrating sophisticated value tracking and automated calculations, the app can empower users to ensure they are adequately insured and can substantiate their claims effectively.
 
@@ -238,16 +89,6 @@ Report Contents: The generated report must contain all the information an adjust
 Export Formats: To ensure maximum utility, the report must be exportable in multiple standard formats. A PDF provides a clean, professional, and non-editable document for formal submission. A CSV or Excel file provides a manipulable format that allows the user or their adjuster to sort, filter, and analyze the data as needed.
 
 Customization and Filtering: Users should be able to generate reports for their entire inventory or for a filtered subset of items. For instance, after a basement flood, a user could generate a report exclusively for "all items located in the basement" that were affected.
-
-2.4 Insurance Policy Management
-To create a truly centralized hub for risk management, the application should allow users to store and manage their actual insurance policies.
-
-Policy Details: Users should be able to create an entry for each of their relevant policies (e.g., Homeowners, Renters, Flood, Earthquake). Key fields should include the insurance provider's name, policy number, key contact information, the policy's deductible amount, and the ability to attach a full PDF copy of the policy document itself.
-
-Asset Linking: A powerful feature, seen in apps like MyAssets, is the ability to link specific assets or collections to a particular policy or rider. For example, a user could link their "Jewelry" collection to a specific high-value item rider on their policy. This is invaluable for users with complex coverage needs, as it clarifies which policy applies to which assets in the event of a loss.   
-
-Proactive Asset Management: Maintenance, Repairs, and Warranties
-This section moves the application's focus from reactive documentation to proactive value preservation. By building a comprehensive lifecycle management module, the app becomes an indispensable tool for maintaining the home and its contents, directly addressing the user's core requirements for tracking warranties and timed maintenance. This functionality is a significant area for differentiation, as it provides ongoing, tangible value to the user long after the initial inventory is complete.
 
 3.1 Warranty & Service Agreement Tracking
 A dedicated module for managing warranties and service agreements is a fundamental component of proactive asset management. This feature, offered by competitors like HomeManage and the Home Inventory app, helps users maximize the value of their purchases by ensuring they can make claims before coverage expires.   
@@ -513,24 +354,6 @@ QR Code Labeling: The app generates a unique, printable QR code for that specifi
 
 The "Magic Scan" Feature: The true power of this module is realized upon arrival at the new destination. Instead of needing to open every box to find a specific item (e.g., "Where is the coffee maker?"), the user can simply point their phone's camera at the QR code on any box. The app will instantly scan the code and display a complete, searchable list of its contents. This feature, a standout offering from Sortly, transforms a frustrating guessing game into a simple, efficient process.   
 
-5.3 Estate Planning Module
-While a sensitive topic, assisting with estate planning is an incredibly high-value feature that creates profound and lasting user engagement. It helps users organize their affairs and provides an invaluable guide for their loved ones during a difficult time. Apps like Home Inventory and HomeManage have successfully incorporated this functionality.   
-
-Beneficiary Assignment: The core of this module is the ability for a user to discreetly assign one or more beneficiaries to any item in their inventory. This information must be stored with enhanced security, ideally encrypted separately and protected by an additional password or biometric authentication distinct from the main app's login.
-
-Heir Management: The module should include a simple, secure contact list of potential heirs, allowing the user to manage this information in one place.
-
-Estate Report Generation: The key output is a comprehensive, password-protected PDF report that itemizes the user's entire inventory (or a selected subset) and clearly lists the designated beneficiary for each item. It is critical to include a clear disclaimer that this report is not a legal will but serves as an instruction document to assist an executor or family members in honoring the user's wishes.
-
-The strategic importance of this feature cannot be overstated. A user who has invested the time and emotional energy to thoughtfully assign hundreds of personal belongings to their loved ones has created a deeply personal and valuable document within the application. This creates powerful user lock-in, as the effort is not easily transferable, and a competitor lacking this feature would be a non-starter. This module transforms the app from a mere utility into a personal legacy tool.
-
-5.4 Consumables & Supplies Management
-This feature extends the inventory concept from durable assets to consumable goods that are regularly used up and replenished. This is particularly useful for managing a pantry, cleaning supplies, or workshop materials. This functionality is the primary focus of specialized apps like Pantry Check and Out of Milk.   
-
-Low-Stock Alerts: Users can set a minimum quantity threshold for any consumable item (e.g., "Paper Towels," "AA Batteries," "Coffee Beans"). When the user logs that they have used an item, the app tracks the remaining quantity. If the count falls below the user-defined minimum, the system triggers a "low stock" alert. This is a standard feature in professional inventory systems and is highly adaptable to the home environment.   
-
-Shared Shopping List Integration: The true convenience of this feature is its link to a household shopping list. When an item triggers a low-stock alert, the user should have the option to automatically add it to a built-in shopping list. This list should be shareable with other family members, allowing anyone in the household to see what is needed and add their own items, streamlining the grocery shopping process.   
-
 The Technical Backbone: Integrations, Data, and Security
 A modern, automated, and trustworthy application is built upon a solid technical foundation. This section outlines the critical architectural decisions, API integrations, and security protocols required to deliver the features detailed in this report. It directly addresses the user's requirement for Google Drive integration within a broader, more strategic context of data ownership and portability.
 
@@ -567,23 +390,6 @@ Speed: For a good user experience, processing must be near real-time.
 Cost: Pricing is typically on a per-scan or tiered monthly subscription basis.
 
 Ease of Integration: The provider should offer well-documented REST APIs and ideally provide SDKs for iOS and Android.
-
-6.3 E-commerce & Product Data Integration
-Automating item entry by connecting to a user's purchase history is a highly desirable but technically challenging feature.
-
-Purchase History Import:
-
-Amazon: There is no official, public-facing API for a consumer to grant access to their personal order history. Current third-party solutions rely on unofficial methods like web scraping (e.g., the    
-
-amazon-order-reports-api library) or instructing the user to manually request their data from Amazon's privacy portal and then upload the resulting file. These methods are fragile, prone to breaking when Amazon updates its website, and may carry security risks. This should be considered a high-risk, high-reward feature for a future version of the app.   
-
-Walmart: A limited API exists for sellers to import order history for tax purposes, but it is restricted to a 90-day window and is not designed for direct consumer use.   
-
-Product Recall API Integration: This is a unique and powerful safety feature that provides significant value. The application can periodically check the user's cataloged items against public recall databases.
-
-Available APIs: The U.S. government provides several free, public REST APIs for this purpose, including those from the Consumer Product Safety Commission (CPSC), the Food and Drug Administration (FDA), and the U.S. Department of Agriculture (USDA).   
-
-Implementation: The app's backend can run a scheduled job to query these APIs, cross-referencing the manufacturer and model numbers from the user's inventory. If a match is found, the app can deliver a critical safety alert to the user, potentially preventing injury or property damage.
 
 6.4 Data Portability & Export
 To build and maintain user trust, the application must operate as a steward of the user's data, not a jailer. Robust data export functionality is non-negotiable. It signals to the user that they are in control, which paradoxically makes them more likely to remain a loyal customer.
