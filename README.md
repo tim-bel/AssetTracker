@@ -2,7 +2,7 @@
 # Business Asset Tracker
 ==============================
 
-**Author:** Tim - SIH ITS
+**Author:** Tim
 **Date:** July 2, 2025
 **Version:** 1.0.0
 
@@ -64,4 +64,5 @@ Once the setup is complete, you can launch the main application with this comman
 
 python app.py
 The Business Asset Tracker window should appear, ready for you to start managing your assets.
+
 
