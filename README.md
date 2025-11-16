@@ -1,5 +1,5 @@
 ==============================
-# Business Asset Tracker
+# Home/Small Business Asset Tracker
 ==============================
 
 **Author:** Tim
@@ -64,5 +64,6 @@ Once the setup is complete, you can launch the main application with this comman
 
 python app.py
 The Business Asset Tracker window should appear, ready for you to start managing your assets.
+
 
 
